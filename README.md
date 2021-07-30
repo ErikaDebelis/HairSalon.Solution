@@ -1,6 +1,6 @@
 # Eau Claire's Salon
 
-A C# EFCore designer website where you can add a list of stylists working at a salon, and for each stylist, add clients who see that stylist. The stylists have specific specialties, so each client can only see/belong to a single stylist.
+A C# website utlizing EFCore framework where you can add a list of stylists working at a salon, and for each stylist, add clients who see that stylist. The stylists have specific specialties, so each client can only see/belong to a single stylist.
 #### Authored by Erika Debelis
 
 ## Technologies Used
