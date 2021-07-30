@@ -12,7 +12,7 @@
   <h3>No clients have been added yet!</h3>
 }
 
-<h6>
+<h5>
 @foreach (Client client in Model)
 {
   <li>Client: @Html.ActionLink($"{client.ClientName}", "Details", new { id = client.ClientId })</li>
@@ -20,8 +20,8 @@
   <li>Stylist: @Html.ActionLink($"{client.Stylist.StylistName}", "Details", "Stylists", new {id = client.StylistId})</li>
 
 }
-</h6>
+</h5>
 
-  @Html.ActionLink("Home", "Index", "Home")
-  @Html.ActionLink("View all Stylists", "Index")
-  @Html.ActionLink("Add new Client", "Create", "Clients")
+<h6>@Html.ActionLink("Home", "Index", "Home")</h6>
+<h6>@Html.ActionLink("View all Stylists", "Index")</h6>
+<h6>@Html.ActionLink("Add new Client", "Create", "Clients")</h6>

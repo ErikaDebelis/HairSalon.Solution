@@ -1,0 +1,16 @@
+@{
+  Layout = "_Layout";
+}
+
+@model HairSalon.Models.Stylist
+
+<h2>This Stylist will be deleted, do you wish to continue?</h2>
+
+@Html.DisplayNameFor(model => model.StylistName): @Html.DisplayFor(model => model.StylistName)
+@using (Html.BeginForm())
+{
+  <input type="submit" value="Delete" class="btn btn-danger" class="delete" />
+}
+
+
+<h6>@Html.ActionLink("Back to Stylists", "Index")</h6>
