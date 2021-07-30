@@ -14,6 +14,7 @@ A C# EFCore designer website where you can add a list of stylists working at a s
 * _My SQL Designer_
 
 ![Screenshot](screenshot.png)
+_(a visual representation of the MySQL database used for this project)_
 
 ## Setup/Installation Requirements
 
