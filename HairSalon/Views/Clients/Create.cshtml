@@ -8,15 +8,16 @@
 @using (Html.BeginForm())
 {
   @Html.LabelFor(model => model.ClientName)
-  @Html.TextBoxFor(model => model.ClientName)
-
-  <label for="stylist">Enter Stylist</label>
-  <input id="stylist" name="stylistName">
-  
+  @Html.TextBoxFor(model => model.ClientName, new {required = "required"})
+  @Html.LabelFor(model => model.ClientDescription)
+  @Html.TextBoxFor(model => model.ClientDescription)
 
   @Html.LabelFor(model => model.Stylist)
-  @Html.DropDownList("StylistId")
-  <input type="submit" value="Add new client" />
+  @Html.DropDownList("StylistId", null, new {required = "required"})
+
+  <input type="submit" value="Add New Client" class="btn btn-dark" />
 }
 
-<h4>@Html.ActionLink("Show all Clients", "Index")</h4>
+  @Html.ActionLink("Show all Clients", "Index")
+
+  @Html.ActionLink("Home", "Index")
