@@ -20,19 +20,19 @@ _(a visual representation of the MySQL database used for this project)_
 
 1. Download or clone the https://github.com/ErikaDebelis/HairSalon.Solution to your local machine
 
-2. Open git BASH terminal and navigate to the Restaurant.Solution of the directory
+2. Open git BASH terminal and navigate to the HairSalon.Solution of the directory
 
 3. Run "dotnet restore" in the git BASH terminal to install dependencies
     ``$ dotnet restore``
 
 4. Create your own version of the database by importing the erikadebelis.sql file from the repo with MySQL Workbench.
 
-5. Create appsettings.json file in the root directory of Restaurant.Solution and add the following code to the file: ``touch appsettings.json``
+5. Create appsettings.json file in the root directory of HairSalon.Solution and add the following code to the file: ``touch appsettings.json``
 ```
 {
   "ConnectionStrings":
   {
-    "DefaultConnection": "Server=localhost;Port=3306;database=best_restaurants;uid={YOUR_USERNAME_NAME};pwd={YOUR_PASSWORD};"
+    "DefaultConnection": "Server=localhost;Port=3306;database=hair_salon;uid={YOUR_USERNAME_NAME};pwd={YOUR_PASSWORD};"
   }
 }
 ```

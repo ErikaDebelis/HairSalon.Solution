@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace BestRestaurants.Models
+namespace HairSalon.Models
 {
-  public class BestRestaurantsContext : DbContext
+  public class HairSalonContext : DbContext
   {
     public virtual DbSet<Stylist> Stylists { get; set; }
     public DbSet<Client> Clients { get; set; }
