@@ -9,12 +9,12 @@
 @using (Html.BeginForm())
 {
   <h4>@Html.LabelFor(model => model.StylistName):
-  @Html.TextBoxFor(model => model.StylistName, new {required = "required"})</h4>
+  @Html.TextBoxFor(model => model.StylistName, new {required = "required"})
 
-  <h4>@Html.LabelFor(model => model.StylistDescription):
+  @Html.LabelFor(model => model.StylistDescription):
   @Html.TextBoxFor(model => model.StylistDescription)</h4>
 
   <h4><input type="submit" value="Add a new Stylist" class="btn btn-dark" /></h4>
 }
 
-<h6>@Html.ActionLink("Show all Stylists", "Index")</h6>
+<h5>@Html.ActionLink("Show all Stylists", "Index")</h5>

@@ -19,8 +19,8 @@ body, html {
   background-image: url("https://thebiz.me/wp-content/uploads/2020/11/luxury-hair-salon-logo.jpeg");
 }
 .container {
-  background: rgb(255,193,93);
-  background: radial-gradient(circle, rgba(255,193,93,0.7488037451308649) 0%, rgba(0,0,0,0.7768149496126575) 100%);
+  background: rgb(250,151,23);
+  background: radial-gradient(circle, rgba(250,151,23,0.7488037451308649) 0%, rgba(0,0,0,0.7768149496126575) 100%);
   padding: 30px 10px;
   border-radius: 15px;
   margin-top: 25px;
