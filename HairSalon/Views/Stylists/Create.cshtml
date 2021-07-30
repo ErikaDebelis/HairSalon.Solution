@@ -4,17 +4,17 @@
 
 @model HairSalon.Models.Stylist
 
-<h4>Add a new Stylist:</h4>
+<h2>Add a new Stylist</h2>
 
 @using (Html.BeginForm())
 {
-  @Html.LabelFor(model => model.StylistName)
-  @Html.TextBoxFor(model => model.StylistName, new {required = "required"})
+  <h4>@Html.LabelFor(model => model.StylistName):
+  @Html.TextBoxFor(model => model.StylistName, new {required = "required"})</h4>
 
-  @Html.LabelFor(model => model.StylistDescription)
-  @Html.TextBoxFor(model => model.StylistDescription)
+  <h4>@Html.LabelFor(model => model.StylistDescription):
+  @Html.TextBoxFor(model => model.StylistDescription)</h4>
 
-  <input type="submit" value="Add a new Stylist" class="btn btn-outline-warning" />
+  <h4><input type="submit" value="Add a new Stylist" class="btn btn-dark" /></h4>
 }
 
 <h6>@Html.ActionLink("Show all Stylists", "Index")</h6>

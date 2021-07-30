@@ -1,0 +1,27 @@
+body, html {
+  background-image: url("https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFyYmVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-position: relative;
+  background-size: cover;
+  overflow: auto;
+  background-position-x: 0;
+  background-position-y: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'El Messiri', sans-serif;
+  text-shadow: 1.5px 0px rgb(255, 232, 181);
+  font-weight: bold;
+  text-align: center;
+}
+.salon_logo {
+  background-image: url("https://thebiz.me/wp-content/uploads/2020/11/luxury-hair-salon-logo.jpeg");
+}
+.container {
+  background: rgb(255,193,93);
+  background: radial-gradient(circle, rgba(255,193,93,0.7488037451308649) 0%, rgba(0,0,0,0.7768149496126575) 100%);
+  padding: 30px 10px;
+  border-radius: 15px;
+  margin-top: 25px;
+}

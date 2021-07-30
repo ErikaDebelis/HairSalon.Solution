@@ -11,13 +11,13 @@
   <h3>No Stylists have been added yet!</h3>
 }
 
-<h5>
+<h3>
 @foreach (Stylist stylist in Model)
   {
     <li>@Html.ActionLink($"{stylist.StylistName}", "Details", new { id = stylist.StylistId })</li>
   }
-</h5>
+</h3>
 
-<h6>@Html.ActionLink("Add new Stylist", "Create")</h6>
-<h6>@Html.ActionLink("Add new Client", "Create", "Clients")</h6>
-<h6>@Html.ActionLink("Home", "Index", "Home")</h6>
+<h4>@Html.ActionLink("Add new Stylist", "Create")     
+@Html.ActionLink("Add new Client", "Create", "Clients")     
+@Html.ActionLink("Home", "Index", "Home")</h4>
