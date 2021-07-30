@@ -27,7 +27,7 @@ _(a visual representation of the MySQL database used for this project)_
 
 4. Create your own version of the database by importing the erikadebelis.sql file from the repo with MySQL Workbench.
 
-5. Create appsettings.json file in the root directory of HairSalon.Solution and add the following code to the file: ``touch appsettings.json``
+5. Create appsettings.json file in the HairSalon directory of HairSalon.Solution and add the following code to the file: ``touch appsettings.json``
 ```
 {
   "ConnectionStrings":
