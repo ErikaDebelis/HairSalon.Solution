@@ -1,9 +1,9 @@
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Name
+namespace HairSalon
 {
-  public class Progrom
+  public class Program
   {
     public static void Main(string[] args)
     {
