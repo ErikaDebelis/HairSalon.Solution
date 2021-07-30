@@ -13,10 +13,12 @@
 }
 
 <h4>
-@foreach (Client client in Model)
-{
-  <li>Client: @Html.ActionLink($"{client.ClientName}", "Details", new { id = client.ClientId })</li>
-}
+  <div class="list">
+  @foreach (Client client in Model)
+  {
+    <li>Client: @Html.ActionLink($"{client.ClientName}", "Details", new { id = client.ClientId })</li>
+  }
+  </div>
 </h4>
 
 <h5>@Html.ActionLink("Home", "Index", "Home")</h5>

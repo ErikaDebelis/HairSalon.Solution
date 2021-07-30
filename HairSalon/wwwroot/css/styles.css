@@ -4,8 +4,6 @@ body, html {
   background-position: relative;
   background-size: cover;
   overflow: auto;
-  background-position-x: 0;
-  background-position-y: 0;
   height: 100%;
   width: 100%;
   margin: 0;
@@ -17,11 +15,21 @@ body, html {
 }
 .salon_logo {
   background-image: url("https://thebiz.me/wp-content/uploads/2020/11/luxury-hair-salon-logo.jpeg");
+  height: 480px;
+  width: 1080px;
+  align-content: center;
+  border-radius: 20px 20px;
+  margin: 0 auto;
+  background-position-y: -250px;
 }
 .container {
   background: rgb(250,151,23);
   background: radial-gradient(circle, rgba(250,151,23,0.7488037451308649) 0%, rgba(0,0,0,0.7768149496126575) 100%);
-  padding: 30px 10px;
-  border-radius: 15px;
-  margin-top: 25px;
+  padding: 30px 30px;
+  border-radius: 15px 15px;
+  margin-top: 40px;
+}
+.list {
+  padding-left: 507px;
+  text-align: left;
 }

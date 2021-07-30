@@ -12,10 +12,12 @@
 }
 
 <h3>
+  <div class="list">
 @foreach (Stylist stylist in Model)
   {
     <li>@Html.ActionLink($"{stylist.StylistName}", "Details", new { id = stylist.StylistId })</li>
   }
+  </div>
 </h3>
 
 <h5>@Html.ActionLink("Add new Stylist", "Create")</h5>

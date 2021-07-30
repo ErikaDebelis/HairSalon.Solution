@@ -12,10 +12,10 @@ namespace HairSalon
   {
     public Startup(IWebHostEnvironment env)
     {
-    IConfigurationBuilder builder = new ConfigurationBuilder()
-        .SetBasePath(env.ContentRootPath)
-        .AddJsonFile("appsettings.json");
-    Configuration = builder.Build();
+      IConfigurationBuilder builder = new ConfigurationBuilder()
+      .SetBasePath(env.ContentRootPath)
+      .AddJsonFile("appsettings.json");
+      Configuration = builder.Build();
     }
 
     public IConfigurationRoot Configuration { get; }
