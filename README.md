@@ -11,6 +11,9 @@ A C# EFCore designer website where you can add a list of stylists working at a s
 * _.NET 5 SDK_
 * _Git BASH_
 * _ASP .NET CORE MVC_
+* _My SQL Designer_
+
+![Screenshot](screenshot.png)
 
 ## Setup/Installation Requirements
 
