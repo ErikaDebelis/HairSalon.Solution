@@ -15,7 +15,7 @@
   <div class="client_list">
   @foreach (HairSalon.Models.Client client in Model.Clients)
   {
-    <li>Client: @Html.ActionLink($"{client.ClientName}", "Details", "Client", "new { id = client.ClientId }")</li>
+    <li>Client: @Html.ActionLink($"{client.ClientName}", "Details", "Clients", new { id = client.ClientId })</li>
   }
   </div>
 </h4>
